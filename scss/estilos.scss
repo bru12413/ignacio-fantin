@@ -160,6 +160,8 @@ header{
     }
 }
 
+
+
 footer{
     height: 400px;
     background-color: rgba(228, 141, 141, 0.911);;
@@ -171,3 +173,97 @@ footer{
     }
 }
 
+
+.electrodos{
+    h1{
+        font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(255, 204, 204, 0.911);
+    }
+}
+
+.celulares{
+    h1{
+        font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(255, 204, 204, 0.911);
+    }
+}
+
+.muebles{
+    h1{
+        font-size: 40px;
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(255, 204, 204, 0.911);
+    }
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+    width: 100%;
+    margin-bottom: 30px;
+    h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(255, 84, 84);
+    padding-bottom: 10px;
+    display: inline-block;
+    }
+    ul li a{
+        font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+    &:hover{
+        color:  rgba(216, 72, 72, 0.911);
+   padding-left: 6px;
+    }
+    }
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encuesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mapa{
+    h1{
+        font-size: 40px;
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(255, 204, 204, 0.911);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.mapa-2{
+    display: flex;
+    justify-content: center;
+}
